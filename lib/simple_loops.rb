@@ -19,4 +19,10 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  
+  c = 0
+  while c < array.size do
+    array[c].to_s
+    c += 1
+  end
+  array
+end
