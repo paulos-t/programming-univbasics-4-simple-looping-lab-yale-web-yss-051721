@@ -25,5 +25,5 @@ def return_string_array(array)
     out << array[c].to_s
     c += 1
   end
-  array
+  out
 end
